@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2222A
+D Transistor NPN 40V 0.6A TO-18
+K
+F http://docs-emea.rs-online.com/webdocs/0e77/0900766b80e779e1.pdf
+$ENDCMP
+#
+#End Doc Library
