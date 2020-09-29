@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2N2222A)(type Legacy)(uri ${KIPRJMOD}/LIB_2N2222A/2N2222A/KiCad/2N2222A.lib)(options "")(descr ""))
+  (lib (name TF_CESE-rescue)(type Legacy)(uri ${KIPRJMOD}/TF_CESE-rescue.lib)(options "")(descr ""))
+)
