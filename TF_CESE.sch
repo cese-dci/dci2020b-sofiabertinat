@@ -951,8 +951,6 @@ Wire Notes Line
 Wire Notes Line
 	11050 650  7650 650 
 Wire Notes Line
-	7650 650  7650 4200
-Wire Notes Line
 	7650 4200 11050 4200
 Wire Notes Line
 	11050 650  11050 4200
@@ -972,10 +970,10 @@ Connection ~ 1650 1350
 Wire Wire Line
 	1650 1350 1650 1450
 $Comp
-L Misc_Poncho_Grande:GND #PWR?
+L Misc_Poncho_Grande:GND #PWR0101
 U 1 1 5F89E0BD
 P 3600 3400
-F 0 "#PWR?" H 3600 3400 30  0001 C CNN
+F 0 "#PWR0101" H 3600 3400 30  0001 C CNN
 F 1 "GND" H 3600 3330 30  0001 C CNN
 F 2 "" H 3600 3400 60  0000 C CNN
 F 3 "" H 3600 3400 60  0000 C CNN
@@ -1002,4 +1000,47 @@ NoConn ~ 2400 2050
 NoConn ~ 2400 2150
 NoConn ~ 2400 2450
 NoConn ~ 2400 2550
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5F7B509F
+P 8050 3150
+F 0 "J6" H 8130 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 8130 3051 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 8050 3150 50  0001 C CNN
+F 3 "~" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc_Poncho_Grande:GND #PWR0102
+U 1 1 5F7B80F3
+P 7750 3300
+F 0 "#PWR0102" H 7750 3300 30  0001 C CNN
+F 1 "GND" H 7750 3230 30  0001 C CNN
+F 2 "" H 7750 3300 60  0000 C CNN
+F 3 "" H 7750 3300 60  0000 C CNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3300 7750 3250
+$Comp
+L Misc_Poncho_Grande:+5V #PWR0103
+U 1 1 5F7C1247
+P 7750 3100
+F 0 "#PWR0103" H 7750 3190 20  0001 C CNN
+F 1 "+5V" H 7746 3228 30  0000 C CNN
+F 2 "" H 7750 3100 60  0000 C CNN
+F 3 "" H 7750 3100 60  0000 C CNN
+	1    7750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3100 7750 3150
+Wire Wire Line
+	7850 3150 7750 3150
+Wire Wire Line
+	7850 3250 7750 3250
+Wire Notes Line
+	7650 4200 7650 650 
 $EndSCHEMATC
